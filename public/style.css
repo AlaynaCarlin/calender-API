@@ -1,0 +1,23 @@
+/* not yet */
+
+.holiday {
+    margin-left: 30vw;
+    margin-right:30vw;
+    margin-top: 30vh;
+}
+
+#cardTitle{
+    text-align: center;
+    padding: 10px;
+}
+
+#subtitle{
+    text-align: center;
+    padding: 10px;
+}
+
+#text {
+    text-align: center;
+    padding: 20px;
+}
+
