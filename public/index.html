@@ -1,41 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Calender API</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Calender API</title>
 </head>
+
 <body>
 
   <h1>Holidays of the world</h1>
-  
-<section class="holiday">
-    <div class="card" style="width: 40rem; height: 20rem;">
-        <div class="card-body" >
-          <h5 class="card-title" id="cardTitle">Card Title</h5>
-          <h6 class="card-subtitle mb-2 text-muted" id="subtitle">Card subtitle</h6>
-          <p class="card-text" id="text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    <button type="button" class="btn btn-primary btn-lg" id="USButton">Random US Holiday</button>
-</section>    
 
-  
-<section class="holiday2">
-  <div class="card2" style="width: 40rem; height: 20rem;">
-      <div class="card-body2" >
-        <h5 class="card-title" id="cardTitle2">Card Title</h5>
-        <h6 class="card-subtitle mb-2 text-muted" id="subtitle2">Card subtitle</h6>
-        <p class="card-text" id="text2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  <div class="container-fluid" id="all">
+    <!-- * us -->
+    <div class="row">
+      <div class="col">
+        <section class="holiday">
+          <div class="card1" style="width: 40rem; height: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title" id="cardTitle">Card Title</h5>
+              <h6 class="card-subtitle mb-2 text-muted" id="subtitle">Card subtitle</h6>
+              <p class="card-text" id="text">Some quick example text to build on the card title and make up the bulk of
+                the card's content.</p>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary btn-lg" id="USButton">Random US Holiday</button>
+        </section>
+      </div>
+
+      <!-- * Mexico -->
+      <div class="col">
+        <section class="holiday2">
+          <div class="card2" style="width: 40rem; height: 20rem;">
+            <div class="card-body2">
+              <h5 class="card-title" id="cardTitle2">Card Title</h5>
+              <h6 class="card-subtitle mb-2 text-muted" id="subtitle2">Card subtitle</h6>
+              <p class="card-text" id="text2">Some quick example text to build on the card title and make up the bulk of
+                the card's content.</p>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary btn-lg" id="MXButton">Random Mexican Holiday</button>
+        </section>
       </div>
     </div>
-  <button type="button" class="btn btn-primary btn-lg" id="USButton2">Large button</button>
-</section>    
 
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <!-- * Australia -->
+    <div class="row">
+      <div class="col">
+        <section class="holiday3">
+          <div class="card3" style="width: 40rem; height: 20rem;">
+            <div class="card-body3">
+              <h5 class="card-title" id="cardTitle3">Card Title</h5>
+              <h6 class="card-subtitle mb-2 text-muted" id="subtitle3">Card subtitle</h6>
+              <p class="card-text" id="text3">Some quick example text to build on the card title and make up the bulk of
+                the card's content.</p>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary btn-lg" id="AUButton">Random Australian Holiday</button>
+        </section>
+      </div>
+
+      <!-- * China -->
+      <div class="col">
+        <section class="holiday4">
+          <div class="card4" style="width: 40rem; height: 20rem;">
+            <div class="card-body4">
+              <h5 class="card-title" id="cardTitle4">Card Title</h5>
+              <h6 class="card-subtitle mb-2 text-muted" id="subtitle4">Card subtitle</h6>
+              <p class="card-text" id="text4">Some quick example text to build on the card title and make up the bulk of
+                the card's content.</p>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary btn-lg" id="CNButton">Random Chinese Holiday</button>
+        </section>
+      </div>
+    </div>
+
+    <!-- * Japan -->
+    <div class="row">
+      <div class="col">
+        <section class="holiday5">
+          <div class="card5" style="width: 40rem; height: 20rem;">
+            <div class="card-body5">
+              <h5 class="card-title" id="cardTitle5">Card Title</h5>
+              <h6 class="card-subtitle mb-2 text-muted" id="subtitle5">Card subtitle</h6>
+              <p class="card-text" id="text5">Some quick example text to build on the card title and make up the bulk of
+                the card's content.</p>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary btn-lg" id="JPButton">Random Japanese Holiday</button>
+        </section>
+      </div>
+
+      <!-- * Guatemala -->
+      <div class="col">
+        <section class="holiday6">
+          <div class="card6" style="width: 40rem; height: 20rem;">
+            <div class="card-body6">
+              <h5 class="card-title" id="cardTitle6">Card Title</h5>
+              <h6 class="card-subtitle mb-2 text-muted" id="subtitle6">Card subtitle</h6>
+              <p class="card-text" id="text6">Some quick example text to build on the card title and make up the bulk of
+                the card's content.</p>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary btn-lg" id="GTButton">Random Guatemalan Holiday</button>
+        </section>
+      </div>
+    </div>
+  </div>
+
+ 
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
