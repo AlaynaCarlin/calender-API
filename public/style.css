@@ -3,20 +3,28 @@
 h1 {
     margin: 5vh;
     text-align: center;
+    color:rgb(255, 214, 160) ;
 }
 
 body {
-    background-image: linear-gradient(150deg, rgb(253, 220, 176), rgb(247, 200, 113));
+    background-image: linear-gradient(150deg, rgb(20, 60, 80), rgb(114, 145, 167));
 }
 
 #all{
-    margin: 2vw;
+    /* margin-left: vw; */
+    /* margin-right: -1vw; */
 }
 
 /* us */
 #USButton{
-    margin-left: 12vw;
-    margin-top: 10px;
+    margin-left: 100px;
+    background-color:rgb(114, 145, 167);
+    border-color:rgb(72, 111, 139) ;
+}
+
+#USButton:hover{
+    background-color: rgb(72, 111, 139) ;
+    border-color:rgb(216, 168, 106) ;
 }
 
 .holiday {
@@ -24,7 +32,10 @@ body {
 }
 
 .card1{
-    border: 5px solid black;
+    border: 5px solid rgb(93, 53, 1);
+    border-radius: 30px;
+    background-color: rgb(255, 217, 168);
+    /* border-color: rgb(216, 168, 106) ; */
 }
 
 #cardTitle{
@@ -44,8 +55,14 @@ body {
 
 /* mx */
 #MXButton{
-    margin-left: 12vw;
-    margin-top: 10px;
+    margin-left: 100px;
+    background-color:rgb(114, 145, 167);
+    border-color:rgb(72, 111, 139) ;
+}
+
+#MXButton:hover{
+    background-color: rgb(72, 111, 139) ;
+    border-color:rgb(216, 168, 106) ;
 }
 
 .holiday2 {
@@ -53,7 +70,9 @@ body {
 }
 
 .card2{
-    border: 5px solid black;
+    border: 5px solid rgb(93, 53, 1);
+    border-radius: 30px;
+    background-color: rgb(255, 217, 168);
 }
 
 #cardTitle2{
@@ -73,16 +92,25 @@ body {
 
 /* au */
 #AUButton{
-    margin-left: 12vw;
-    margin-top: 10px;
+    margin-left: 100px;
+    background-color:rgb(114, 145, 167);
+    border-color:rgb(72, 111, 139) ;
 }
+
+#AUButton:hover{
+    background-color: rgb(72, 111, 139) ;
+    border-color:rgb(216, 168, 106) ;
+}
+
 
 .holiday3 {
     margin:5px;
 }
 
 .card3{
-    border: 5px solid black;
+    border: 5px solid rgb(70, 39, 0);
+    border-radius: 30px;
+    background-color: rgb(255, 217, 168);
 }
 
 #cardTitle3{
@@ -102,16 +130,25 @@ body {
 
 /* cn */
 #CNButton{
-    margin-left: 12vw;
-    margin-top: 10px;
+    margin-left: 100px;
+    background-color:rgb(114, 145, 167);
+    border-color:rgb(72, 111, 139) ;
 }
+
+#CNButton:hover{
+    background-color: rgb(72, 111, 139) ;
+    border-color:rgb(216, 168, 106) ;
+}
+
 
 .holiday4 {
     margin:5px;
 }
 
 .card4{
-    border: 5px solid black;
+    border: 5px solid rgb(93, 53, 1);
+    border-radius: 30px;
+    background-color: rgb(255, 217, 168);
 }
 
 #cardTitle4{
@@ -131,8 +168,14 @@ body {
 
 /* jp */
 #JPButton{
-    margin-left: 12vw;
-    margin-top: 10px;
+    margin-left: 100px;
+    background-color:rgb(114, 145, 167);
+    border-color:rgb(72, 111, 139) ;
+}
+
+#JPButton:hover{
+    background-color: rgb(72, 111, 139) ;
+    border-color:rgb(216, 168, 106) ;
 }
 
 .holiday5 {
@@ -140,7 +183,9 @@ body {
 }
 
 .card5{
-    border: 5px solid black;
+    border: 5px solid rgb(93, 53, 1);
+    border-radius: 30px;
+    background-color: rgb(255, 217, 168);
 }
 
 #cardTitle5{
@@ -160,8 +205,14 @@ body {
 
 /* gt */
 #GTButton{
-    margin-left: 12vw;
-    margin-top: 10px;
+    margin-left: 100px;
+    background-color:rgb(114, 145, 167);
+    border-color:rgb(72, 111, 139) ;
+}
+
+#GTButton:hover{
+    background-color: rgb(72, 111, 139) ;
+    border-color:rgb(216, 168, 106) ;
 }
 
 .holiday6 {
@@ -169,7 +220,9 @@ body {
 }
 
 .card6{
-    border: 5px solid black;
+    border: 5px solid rgb(93, 53, 1);
+    border-radius: 30px;
+    background-color: rgb(255, 217, 168);
 }
 
 #cardTitle6{
