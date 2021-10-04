@@ -1,9 +1,23 @@
 /* not yet */
 
+h1 {
+    margin: 5vh;
+    text-align: center;
+}
+
+#USButton{
+    margin-left: 17vw;
+    margin-top: 10px;
+}
+
 .holiday {
     margin-left: 30vw;
     margin-right:30vw;
     margin-top: 30vh;
+}
+
+.card{
+    border: 5px solid black;
 }
 
 #cardTitle{
