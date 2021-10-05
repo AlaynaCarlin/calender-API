@@ -11,8 +11,7 @@ body {
 }
 
 #all{
-    /* margin-left: vw; */
-    /* margin-right: -1vw; */
+   
 }
 
 /* us */
@@ -35,6 +34,7 @@ body {
     border: 5px solid rgb(93, 53, 1);
     border-radius: 30px;
     background-color: rgb(255, 217, 168);
+    margin: 4vw;
     /* border-color: rgb(216, 168, 106) ; */
 }
 
@@ -73,6 +73,7 @@ body {
     border: 5px solid rgb(93, 53, 1);
     border-radius: 30px;
     background-color: rgb(255, 217, 168);
+    margin: 4vw;
 }
 
 #cardTitle2{
@@ -111,6 +112,7 @@ body {
     border: 5px solid rgb(70, 39, 0);
     border-radius: 30px;
     background-color: rgb(255, 217, 168);
+    margin: 4vw;
 }
 
 #cardTitle3{
@@ -149,6 +151,7 @@ body {
     border: 5px solid rgb(93, 53, 1);
     border-radius: 30px;
     background-color: rgb(255, 217, 168);
+    margin: 4vw;
 }
 
 #cardTitle4{
@@ -186,6 +189,7 @@ body {
     border: 5px solid rgb(93, 53, 1);
     border-radius: 30px;
     background-color: rgb(255, 217, 168);
+    margin: 4vw;
 }
 
 #cardTitle5{
@@ -223,6 +227,7 @@ body {
     border: 5px solid rgb(93, 53, 1);
     border-radius: 30px;
     background-color: rgb(255, 217, 168);
+    margin: 4vw;
 }
 
 #cardTitle6{
