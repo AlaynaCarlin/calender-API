@@ -6,6 +6,8 @@ const baseURL3 = "https://calendarific.com/api/v2/holidays?api_key=fb928595c4369
 const baseURL4 = "https://calendarific.com/api/v2/holidays?api_key=fb928595c436941d6cbbcd4b408bc64c8300491c&country=CN&year=2021";
 const baseURL5 = "https://calendarific.com/api/v2/holidays?api_key=fb928595c436941d6cbbcd4b408bc64c8300491c&country=JP&year=2021";
 const baseURL6 = "https://calendarific.com/api/v2/holidays?api_key=fb928595c436941d6cbbcd4b408bc64c8300491c&country=GT&year=2021";
+const baseURL7 = "https://calendarific.com/api/v2/holidays?api_key=fb928595c436941d6cbbcd4b408bc64c8300491c&country=FR&year=2021";
+const baseURL8 = "https://calendarific.com/api/v2/holidays?api_key=fb928595c436941d6cbbcd4b408bc64c8300491c&country=IL&year=2021";
 
 //*card elements   US
 let cardTitle = document.getElementById('cardTitle');
@@ -32,6 +34,18 @@ let cardTitle6 = document.getElementById('cardTitle6');
 let subtitle6 = document.getElementById('subtitle6');
 let text6 = document.getElementById('text6');
 
+  // * FR 
+let cardTitle7 = document.getElementById('cardTitle7');
+let subtitle7 = document.getElementById('subtitle7');
+let text7 = document.getElementById('text7');
+
+  // * IL
+let cardTitle8 = document.getElementById('cardTitle8');
+let subtitle8 = document.getElementById('subtitle8');
+let text8 = document.getElementById('text8');
+
+  
+
 
 //*button(s)
 let usButton = document.getElementById('USButton');
@@ -40,6 +54,8 @@ let auButton = document.getElementById('AUButton');
 let cnButton = document.getElementById('CNButton');
 let jpButton = document.getElementById('JPButton');
 let gtButton = document.getElementById('GTButton');
+let frButton = document.getElementById('FRButton');
+let ilButton = document.getElementById('ILButton');
 
 //*event listener(s)
 usButton.addEventListener('click', FetchHoly);
@@ -48,6 +64,8 @@ auButton.addEventListener('click', auHoliday);
 cnButton.addEventListener('click', cnHoliday);
 jpButton.addEventListener('click', jpHoliday);
 gtButton.addEventListener('click', gtHoliday);
+frButton.addEventListener('click', frHoliday);
+ilButton.addEventListener('click', ilHoliday);
 
 
 function randomInt (max) {
@@ -141,6 +159,36 @@ console.log(day);
 cardTitle6.innerText = `Name: ${day.name}`;
 subtitle6.innerText = `Date: ${day.date.iso}`;
 text6.innerText = `description: ${day.description}`;
+}
+
+// ! **  France Holiday  **
+function frHoliday (e) {
+  fetch (baseURL7)
+  .then(res => res.json())
+  // .then(json => console.log(json));
+  .then(json => randoHoliday7((json.response.holidays[randomInt(25)])));
+}
+
+function randoHoliday7 (day){
+console.log(day);
+cardTitle7.innerText = `Name: ${day.name}`;
+subtitle7.innerText = `Date: ${day.date.iso}`;
+text7.innerText = `description: ${day.description}`;
+}
+
+// ! **  Israel Holiday  **
+function ilHoliday (e) {
+  fetch (baseURL8)
+  .then(res => res.json())
+  // .then(json => console.log(json));
+  .then(json => randoHoliday8((json.response.holidays[randomInt(54)])));
+}
+
+function randoHoliday8 (day){
+console.log(day);
+cardTitle8.innerText = `Name: ${day.name}`;
+subtitle8.innerText = `Date: ${day.date.iso}`;
+text8.innerText = `description: ${day.description}`;
 }
 
 

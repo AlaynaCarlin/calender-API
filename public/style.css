@@ -40,16 +40,19 @@ body {
 }
 
 #cardTitle{
+    font-family:cursive;
     text-align: center;
     padding: 10px;
 }
 
 #subtitle{
+    font-family:cursive;
     text-align: center;
     padding: 10px;
 }
 
 #text {
+    font-family:cursive;
     text-align: center;
     padding: 20px;
 }
@@ -78,16 +81,19 @@ body {
 }
 
 #cardTitle2{
+    font-family:cursive;
     text-align: center;
     padding: 10px;
 }
 
 #subtitle2{
+    font-family:cursive;
     text-align: center;
     padding: 10px;
 }
 
 #text2 {
+    font-family:cursive;
     text-align: center;
     padding: 20px;
 }
@@ -117,16 +123,19 @@ body {
 }
 
 #cardTitle3{
+    font-family:cursive;
     text-align: center;
     padding: 10px;
 }
 
 #subtitle3{
+    font-family:cursive;
     text-align: center;
     padding: 10px;
 }
 
 #text3 {
+    font-family:cursive;
     text-align: center;
     padding: 20px;
 }
@@ -156,16 +165,19 @@ body {
 }
 
 #cardTitle4{
+    font-family:cursive;
     text-align: center;
     padding: 10px;
 }
 
 #subtitle4{
+    font-family:cursive;
     text-align: center;
     padding: 10px;
 }
 
 #text4 {
+    font-family:cursive;
     text-align: center;
     padding: 20px;
 }
@@ -194,16 +206,19 @@ body {
 }
 
 #cardTitle5{
+    font-family:cursive;
     text-align: center;
     padding: 10px;
 }
 
 #subtitle5{
+    font-family:cursive;
     text-align: center;
     padding: 10px;
 }
 
 #text5 {
+    font-family:cursive;
     text-align: center;
     padding: 20px;
 }
@@ -232,16 +247,101 @@ body {
 }
 
 #cardTitle6{
+    font-family:cursive;
     text-align: center;
     padding: 10px;
 }
 
 #subtitle6{
+    font-family:cursive;
     text-align: center;
     padding: 10px;
 }
 
 #text6 {
+    font-family:cursive;
+    text-align: center;
+    padding: 20px;
+}
+
+/* fr */
+#FRButton{
+    margin-left: 100px;
+    background-color:rgb(114, 145, 167);
+    border-color:rgb(72, 111, 139) ;
+}
+
+#FRButton:hover{
+    background-color: rgb(72, 111, 139) ;
+    border-color:rgb(216, 168, 106) ;
+}
+
+.holiday7 {
+    margin:5px;
+}
+
+.card7{
+    border: 5px solid rgb(93, 53, 1);
+    border-radius: 30px;
+    background-color: rgb(255, 217, 168);
+    margin: 4vw;
+}
+
+#cardTitle7{
+    font-family:cursive;
+    text-align: center;
+    padding: 10px;
+}
+
+#subtitle7{
+    font-family:cursive;
+    text-align: center;
+    padding: 10px;
+}
+
+#text7 {
+    font-family:cursive;
+    text-align: center;
+    padding: 20px;
+}
+
+/* il */
+#ILButton{
+    margin-left: 100px;
+    background-color:rgb(114, 145, 167);
+    border-color:rgb(72, 111, 139) ;
+}
+
+#ILButton:hover{
+    background-color: rgb(72, 111, 139) ;
+    border-color:rgb(216, 168, 106) ;
+}
+
+.holiday8 {
+    margin:5px;
+}
+
+.card8{
+    border: 5px solid rgb(93, 53, 1);
+    border-radius: 30px;
+    background-color: rgb(255, 217, 168);
+    margin: 4vw;
+}
+
+#cardTitle8{
+    font-family:cursive;
+    text-align: center;
+    padding: 10px;
+}
+
+#subtitle8{
+    font-family:cursive;
+    text-align: center;
+    padding: 10px;
+}
+
+#text8 {
+    font-family:cursive;
     text-align: center;
     padding: 20px;
 }
