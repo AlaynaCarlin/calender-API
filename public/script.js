@@ -81,6 +81,7 @@ function FetchHoly (e) {
 
 function randoHoliday (day){
   console.log(day);
+
   cardTitle.innerText = `Name: ${day.name}`;
   subtitle.innerText = `Date: ${day.date.iso}`;
   text.innerText = `description: ${day.description}`;
